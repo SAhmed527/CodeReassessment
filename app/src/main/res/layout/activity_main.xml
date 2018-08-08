@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firsteditText"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <EditText
+        android:id="@+id/secondeditText"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firsteditText" />
+
+    <Button
+        android:id="@+id/storebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="131dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mileage"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fuel"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+</android.support.constraint.ConstraintLayout>
